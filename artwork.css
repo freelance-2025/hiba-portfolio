@@ -1,0 +1,54 @@
+/* General Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+  }
+  
+  body {
+    background: #0f0a0a;
+  }
+  main {
+    padding: 2rem;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .art-piece {
+    background-color: #2e074b;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .art-piece img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .description-box {
+    padding: 0.5rem;
+    background-color: ;
+    color: #ff7ef6;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #340454;
+    color: #ff7ef6;
+  }
+  
